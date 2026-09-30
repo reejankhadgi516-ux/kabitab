@@ -1,0 +1,14 @@
+# Local WordPress Studio runtime data — never commit these to GitHub.
+wp-content/database/
+wp-content/cache/
+wp-content/uploads/
+wp-content/updraft/
+wp-content/upgrade/
+wp-content/wpo-cache/
+wp-config.php
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,18 @@
+.kabitab-reader-shell { max-width: 1120px; margin: 0 auto; padding: 48px 24px 72px; color: #34221f; }
+.kabitab-story-reader__hero { display: grid; grid-template-columns: minmax(180px, 300px) minmax(0, 1fr); gap: 36px; align-items: center; margin-bottom: 44px; }
+.kabitab-story-reader__cover img { display: block; width: 100%; height: auto; border-radius: 18px; box-shadow: 0 20px 45px rgba(72, 21, 29, .18); }
+.kabitab-reader__eyebrow { margin: 0 0 10px; color: #755020; font-size: .82rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.kabitab-reader__eyebrow a { color: inherit; }
+.kabitab-story-reader h1, .kabitab-chapter-reader h1 { margin: 0; color: #48151d; font-family: Georgia, "Noto Serif Devanagari", serif; font-size: clamp(2.1rem, 5vw, 4.25rem); line-height: 1.12; }
+.kabitab-reader__byline, .kabitab-reader__status { margin: 14px 0 0; color: #74564e; font-weight: 700; }
+.kabitab-reader__status { display: inline-block; padding: 5px 9px; border-radius: 999px; background: rgba(185, 137, 66, .14); color: #755020; font-size: .84rem; }
+.kabitab-reader__blurb { max-width: 62ch; margin: 20px 0 0; font-size: 1.07rem; line-height: 1.7; }
+.kabitab-story-reader__body, .kabitab-chapter-reader__body { max-width: 74ch; margin: 0 auto; font-size: 1.11rem; line-height: 1.85; }
+.kabitab-story-reader__chapters { max-width: 74ch; margin: 54px auto 0; padding: 28px; border: 1px solid rgba(111, 32, 43, .16); border-radius: 18px; background: #fffaf2; }
+.kabitab-story-reader__chapters h2 { margin-top: 0; color: #48151d; }
+.kabitab-story-reader__chapters ol { margin: 0; padding-left: 1.5em; }
+.kabitab-story-reader__chapters li + li { margin-top: 10px; }
+.kabitab-story-reader__chapters a, .kabitab-chapter-reader__navigation a { color: #6f202b; font-weight: 700; }
+.kabitab-chapter-reader__header { max-width: 74ch; margin: 0 auto 32px; text-align: center; }
+.kabitab-chapter-reader__navigation { display: flex; max-width: 74ch; gap: 16px; justify-content: space-between; margin: 48px auto 0; padding-top: 22px; border-top: 1px solid rgba(111, 32, 43, .16); }
+@media (max-width: 700px) { .kabitab-reader-shell { padding: 32px 18px 56px; } .kabitab-story-reader__hero { grid-template-columns: 1fr; gap: 24px; } .kabitab-story-reader__cover { max-width: 250px; } .kabitab-chapter-reader__navigation { align-items: flex-start; flex-direction: column; } }

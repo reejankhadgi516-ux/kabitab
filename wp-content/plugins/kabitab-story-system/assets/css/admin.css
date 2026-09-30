@@ -1,0 +1,11 @@
+.kabitab-featured-image-note {
+	padding: 10px 12px;
+	border-left: 4px solid #2271b1;
+	background: #f0f6fc;
+}
+
+#kabitab_story_details label,
+#kabitab_chapter_details label {
+	display: inline-block;
+	margin-bottom: 4px;
+}
